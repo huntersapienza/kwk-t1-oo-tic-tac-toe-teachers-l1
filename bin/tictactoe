@@ -8,3 +8,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 display_board(board)
 play(board)
+
+require 'pry'
+require_relative '../lib/tic_tac_toe.rb'
+
+TicTacToe.new.play
